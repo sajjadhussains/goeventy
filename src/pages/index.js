@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Homepage from "@/components/Homepage/Homepage";
+import Layout from "@/components/Layouts/Layout";
 export default function Home() {
   return (
     <>
@@ -15,3 +16,6 @@ export default function Home() {
     </>
   );
 }
+Home.getLayout = function getLayout(page) {
+  return <Layout>{page}</Layout>;
+};

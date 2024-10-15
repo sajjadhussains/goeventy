@@ -41,6 +41,19 @@ a {
   }
 }
 
+.dashboard-content {
+  margin-left: 230px;
+  overflow: hidden;
+  padding: 2rem 2.5rem;
+  min-height: calc(100vh - 230px);
+}
+
+.dashboard-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #edf8fb;
+  min-height: 100vh;
+}
 /**
  * 
  * top navbar
