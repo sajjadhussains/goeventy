@@ -10,7 +10,7 @@ const SideNav = () => {
         <div className="logo-container">
           <div className="img-container">
             <Link href="/">
-              <Image src={dashboardLayout} priority={true} alt="logo" />
+              <Image src={dashboardLayout} placeholder="blur" alt="logo" />
             </Link>
           </div>
         </div>

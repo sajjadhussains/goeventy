@@ -1,3 +1,4 @@
+import DashboardInitialView from "@/components/DashboardInitialView/DashboardInitialView";
 import DashboardLayout from "@/components/DashboardLayout/DashboardLayout";
 import Head from "next/head";
 import React from "react";
@@ -11,9 +12,9 @@ const Dashboard = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="dashboard-content">
-        <h1>This is a dashboard page</h1>
-      </div>
+      <>
+        <DashboardInitialView />
+      </>
     </>
   );
 };

@@ -1,0 +1,80 @@
+.dashboard-default-view-container {
+  width: 100%;
+  height: 100%;
+
+  .dashboard-default-view {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+    border-radius: 18px;
+    background: #fff;
+    padding-block: 60px;
+    .img-container {
+      width: 100%;
+      max-width: 202px;
+      margin-inline: auto;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+    .default-text-container {
+      margin-top: 21px;
+      .title {
+        font-size: 38px;
+        font-weight: 500;
+        color: $black;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      .subtitle {
+        font-size: 20px;
+        font-weight: 500;
+        color: $primary;
+        text-align: center;
+      }
+      .btn-container {
+        text-align: center;
+        margin-top: 36px;
+        .btn {
+          font-size: 18px;
+          font-weight: 500;
+          color: #fbfbfb;
+          background: $black;
+          padding: 13px 50px;
+        }
+      }
+    }
+  }
+  .user-info-container {
+    margin-bottom: 11px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    .info-content {
+      display: inline-flex;
+      align-items: center;
+      gap: 30px;
+      border-radius: 14px;
+      background: #fff;
+      padding: 15px 16px;
+      .lbl {
+        font-size: 14px;
+        color: $black;
+      }
+    }
+  }
+}
+
+@media (max-width: 1600px) {
+  .dashboard-default-view-container {
+    .dashboard-default-view {
+      padding-block: 40px !important;
+    }
+  }
+}
