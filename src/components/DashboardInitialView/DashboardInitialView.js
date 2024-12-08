@@ -26,7 +26,7 @@ const DashboardInitialView = () => {
             Live your event and start selling in a 5 mins
           </div>
           <div className="btn-container">
-            <Link className="btn" href="/">
+            <Link className="btn" href="/createEvent">
               Create Event
             </Link>
           </div>
